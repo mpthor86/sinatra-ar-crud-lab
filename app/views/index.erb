@@ -1,0 +1,8 @@
+<!DOCTYPE html>
+<html>
+<h1>Here are the Articles</h1>
+<% @all.each do |art| %>
+    <h3><%= art.title %></h3>
+    <p><%= art.content %></p>
+    <%end%>
+</html>
